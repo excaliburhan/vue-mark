@@ -4,6 +4,8 @@
   "description": "A corner mark component based on vue.js",
   "license": "MIT",
   "main": "dist/vue-mark.min.js",
+  "repository": "git@github.com:excaliburhan/vue-mark.git",
+  "author": "xiaoping <edwardhjp@gmail.com>",
   "scripts": {
     "dev": "node build/dev-server.js",
     "lint": "eslint --ext .js,.vue src",
