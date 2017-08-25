@@ -1,9 +1,10 @@
 {
   "name": "vue-mark",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A corner mark component based on vue.js",
   "main": "dist/vue-mark.min.js",
-  "author": "xiaoping <edwardhjp@gmail.com>",
+  "repository": "git@github.com:excaliburhan/vue-mark.git",
+  "author": "xiaoping <edwardhjp@gmail.com>"
   "license": "MIT"
   "scripts": {
     "dev": "node build/dev-server.js",
