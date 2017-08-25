@@ -131,7 +131,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = {
-  name: 'xp-mark',
+  name: 'vue-mark',
   props: {
     value: '',
     max: Number,
@@ -185,7 +185,7 @@ exports = module.exports = __webpack_require__(4)(false);
 
 
 // module
-exports.push([module.i, "\n.xp-mark[data-v-ca9bd748] {\n  position: relative;\n  display: inline-block;\n  vertical-align: middle;\n}\n.xp-mark__content[data-v-ca9bd748] {\n    position: absolute;\n    top: 0;\n    right: 10px;\n    display: inline-block;\n    transform: translateY(-50%) translateX(100%);\n    height: 18px;\n    line-height: 18px;\n    padding: 0 6px;\n    font-size: 12px;\n    text-align: center;\n    color: #fff;\n    white-space: nowrap;\n    background-color: #ff4949;\n    border: 1px solid #fff;\n    border-radius: 10px;\n}\n.xp-mark__content.is-dot[data-v-ca9bd748] {\n      width: 8px;\n      height: 8px;\n      padding: 0;\n      right: 5px;\n      border-radius: 50%;\n}\n", ""]);
+exports.push([module.i, "\n.vue-mark[data-v-ca9bd748] {\n  position: relative;\n  display: inline-block;\n  vertical-align: middle;\n}\n.vue-mark__content[data-v-ca9bd748] {\n    position: absolute;\n    top: 0;\n    right: 10px;\n    display: inline-block;\n    transform: translateY(-50%) translateX(100%);\n    height: 18px;\n    line-height: 18px;\n    padding: 0 6px;\n    font-size: 12px;\n    text-align: center;\n    color: #fff;\n    white-space: nowrap;\n    background-color: #ff4949;\n    border: 1px solid #fff;\n    border-radius: 10px;\n}\n.vue-mark__content.is-dot[data-v-ca9bd748] {\n      width: 8px;\n      height: 8px;\n      padding: 0;\n      right: 5px;\n      border-radius: 50%;\n}\n", ""]);
 
 // exports
 
@@ -375,7 +375,7 @@ module.exports = function normalizeComponent (
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "xp-mark"
+    staticClass: "vue-mark"
   }, [_vm._t("default"), _vm._v(" "), _c('sup', {
     directives: [{
       name: "show",
@@ -383,7 +383,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       value: (!_vm.hidden && (_vm.content || _vm.isDot)),
       expression: "!hidden && (content || isDot)"
     }],
-    staticClass: "xp-mark__content",
+    staticClass: "vue-mark__content",
     class: {
       'is-dot': _vm.isDot
     }
