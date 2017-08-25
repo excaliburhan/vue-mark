@@ -29,7 +29,7 @@ function buildUmd (config, version, cb) {
   })
 }
 
-rm(path.join(__dirname, './dist'), err => {
+rm(path.resolve(__dirname, '../dist'), err => {
   if (err) throw err
   buildUmd(releaseConfig, 'Releasing', function () {
     buildUmd(releaseMinConfig, 'Releasing minified')
