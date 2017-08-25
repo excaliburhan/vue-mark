@@ -1,6 +1,6 @@
 {
   "name": "vue-mark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A corner mark component based on vue.js",
   "license": "MIT",
   "main": "dist/vue-mark.min.js",
