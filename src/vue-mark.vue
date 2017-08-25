@@ -1,16 +1,16 @@
 <template>
-<div class="xp-mark">
+<div class="vue-mark">
   <slot></slot>
   <sup
     v-show="!hidden && (content || isDot)"
-    class="xp-mark__content" :class="{ 'is-dot': isDot }"
+    class="vue-mark__content" :class="{ 'is-dot': isDot }"
   >{{ content }}</sup>
 </div>
 </template>
 
 <script>
 export default {
-  name: 'xp-mark',
+  name: 'vue-mark',
   props: {
     value: '',
     max: Number,
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.xp-mark {
+.vue-mark {
   position: relative;
   display: inline-block;
   vertical-align: middle;
