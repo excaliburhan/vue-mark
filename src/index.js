@@ -7,7 +7,17 @@
 */
 
 import VueMark from './vue-mark.vue'
-export default VueMark
+
+const install = (Vue) => {
+  Vue.component('vue-mark', VueMark)
+}
+
+export default {
+  install,
+}
+export {
+  VueMark,
+}
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.component('vue-mark', VueMark)
+  install(window.Vue)
 }
