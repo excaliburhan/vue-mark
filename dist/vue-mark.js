@@ -163,6 +163,7 @@ exports.default = {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.VueMark = undefined;
 
 var _vueMark = __webpack_require__(0);
 
@@ -170,10 +171,17 @@ var _vueMark2 = _interopRequireDefault(_vueMark);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = _vueMark2.default;
+var install = function install(Vue) {
+  Vue.component('vue-mark', _vueMark2.default);
+};
+
+exports.default = {
+  install: install
+};
+exports.VueMark = _vueMark2.default;
 
 if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.component('vue-mark', _vueMark2.default);
+  install(window.Vue);
 }
 
 /***/ }),
