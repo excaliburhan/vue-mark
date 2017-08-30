@@ -89,7 +89,7 @@
 </template>
 
 <script>
-import VueMark from '@/vue-mark'
+import { VueMark } from '@/vue-mark'
 
 export default {
   components: { VueMark },
