@@ -1,6 +1,6 @@
 {
   "name": "vue-mark",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A vue corner mark component",
   "main": "dist/vue-mark.min.js",
   "repository": "git@github.com:excaliburhan/vue-mark.git",
